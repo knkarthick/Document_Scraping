@@ -1,8 +1,8 @@
 ﻿$word = new-object -ComObject word.application
 $word.Visible = $false
 
-$source_dir = 'C:/Document_Scraping/Docx/'
-$dest_dir = 'C:/Document_Scraping/converted/'
+$source_dir = '/Users/kalika2/Documents/KARTHICK/Document_Scraping/Docx/'
+$dest_dir = '/Users/kalika2/Documents/KARTHICK/Document_Scraping/converted/'
 $saveFormat = [Enum]::Parse([Microsoft.Office.Interop.Word.WdSaveFormat], "wdFormatText");
 
 
